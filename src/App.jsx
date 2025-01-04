@@ -3,10 +3,12 @@ import './App.css'
 
 function List(props) {
 
+    // Check if list has items
     if (!props.animals) {
       return <div>Loading...</div>;
     }
 
+    // Check if items in list have length > 0
     if (props.animals.length === 0) {
       return <div>There are no animals in the list!</div>;
     }
