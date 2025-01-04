@@ -1,14 +1,12 @@
 import './App.css'
 
-function ListItem(props) {
-  return <li>{props.animal}</li>
-}
 
 function List(props) {
   return (
     <ul>
       {props.animals.map((animal) => {
-        return <ListItem key={animal} animal={animal} />;
+        // Refactored below to use the ternary (?) operator to conditionally render animals that start with "L"
+        return animal.startsWith("L") ? <li key={animal}>{animal}</li> : null;
       })}
     </ul>
   );
