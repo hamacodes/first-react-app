@@ -11,7 +11,7 @@ function Header() {
         <nav>
           <ul className='nav-list'>
             <li>Pricing</li>
-            <li>About</li>
+            <li>About</li> 
             <li>Contact</li>
           </ul>
         </nav>
