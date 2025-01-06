@@ -4,5 +4,5 @@ import './index.css'
 const root = createRoot(document.getElementById("root"))
 
 root.render(
-  <h1>Hello, world!</h1>
+  <img src="src/assets/react.svg" alt="A logo of ReactJS library." />
 )
