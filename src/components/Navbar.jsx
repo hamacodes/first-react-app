@@ -1,5 +1,4 @@
-
-function Header() {
+function Navbar() {
     return (
       <header className='header'>
           <img className='header-image' src="src/assets/react.svg" alt="React logo" />
@@ -14,4 +13,4 @@ function Header() {
     );
 }
 
-export default Header;
+export default Navbar;
