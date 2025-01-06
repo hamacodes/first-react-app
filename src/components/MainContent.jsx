@@ -1,6 +1,6 @@
 function MainContent() {
     return (
-      <main>
+      <main className="main-content">
           <h1 className="main-h1">Fun facts about React</h1>
           <ol className="main-ol">
             <li className="main-li">Was first released in 2013</li>

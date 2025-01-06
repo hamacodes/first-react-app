@@ -28,6 +28,17 @@
   font-weight: bold;
 }
 
+/* MainContent styling */
+.main-content {
+  display: flex;
+  flex-direction: column;
+}
+.main-ol {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  list-style: inside;
+}
 
 a {
   font-weight: 500;
