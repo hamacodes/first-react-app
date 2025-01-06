@@ -4,14 +4,18 @@ import './index.css'
 const root = createRoot(document.getElementById("root"))
 
 
-
+function Header() {
+  return (
+    <header>
+        <img src="src/assets/react.svg" alt="React logo" width="40px" />
+      </header>
+  );
+}
 
 function Page() {
   return (
     <>
-      <header>
-        <img src="src/assets/react.svg" alt="React logo" width="40px" />
-      </header>
+      <Header />
       <main>
         <h1>Reasons I am excited to learn React</h1>
         <ol>
