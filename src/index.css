@@ -17,18 +17,15 @@
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 10px;
+  color: #61dbfb;
 }
 .header-image {
   width: 55px;
 }
-.nav-list {
-  list-style: none;
-  display: flex;
+.header-text {
   font-size: large;
   font-weight: bold;
-  gap: 10px;
-  align-items: baseline;
 }
 
 
