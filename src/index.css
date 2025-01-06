@@ -13,6 +13,22 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Navbar styling */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  font-size: large;
+  font-weight: bold;
+  gap: 10px;
+  align-items: baseline;
+}
+
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -26,12 +42,13 @@ body {
   padding: 20px;
   background: #27292c;
   color: white;
+  box-sizing: border-box;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
-  margin-top: 30px;
+  margin-top: 30px; 
 }
 
 button {

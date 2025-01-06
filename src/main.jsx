@@ -6,16 +6,16 @@ const root = createRoot(document.getElementById("root"))
 
 function Header() {
   return (
-    <header>
+    <header className='header'>
         <img src="src/assets/react.svg" alt="React logo" width="40px" />
         <nav>
-          <ul>
+          <ul className='nav-list'>
             <li>Pricing</li>
             <li>About</li>
             <li>Contact</li>
           </ul>
         </nav>
-    </header>
+    </header> 
   );
 }
 
