@@ -1,8 +1,10 @@
 function Navbar() {
     return (
-      <header className='header'>
-          <img className='header-image' src="src/assets/react.svg" alt="React logo" />
-          <text className="header-text">ReactFacts</text>
+      <header>
+        <nav>
+          <img src="src/assets/react.svg" alt="React logo" />
+          <span>ReactFacts</span>
+        </nav>
       </header> 
     );
 }
