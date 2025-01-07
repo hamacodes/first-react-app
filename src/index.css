@@ -15,6 +15,9 @@
 
 /* Navbar styling */
 .header {
+  background-color: #1a1a1a;
+  width: auto;
+  height: 100px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -22,6 +25,7 @@
 }
 .header-image {
   width: 55px;
+  margin-left: 20px;
 }
 .header-text {
   font-size: large;
